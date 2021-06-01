@@ -157,8 +157,8 @@ class Pipe:
 
     #I dont want to lean myself too much out of the window but after I have done repeatedly research
     #on how to pytest pygame game logic, there was only scarce sources for it and the sources which I found
-    #where not recommending stateless unit testing such as pytest for testing game logic which does things on
-    #spreaded out over multiple frames neted in loops. Summarized I would have to program a pytest event
+    #where not recommending stateless unit testing such as pytest for testing game logic which does things 
+    #spreaded out over multiple frames nested in loops. Summarized I would have to program a pytest event
     #for my game logic which simulates user input and sends back the results. But I was not able to manage that
     #properly.
     #https://stackoverflow.com/questions/63341547/how-to-inject-pygame-events-from-pytest
